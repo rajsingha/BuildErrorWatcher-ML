@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+joblib
+# optional:
+skl2onnx
+onnxruntime
