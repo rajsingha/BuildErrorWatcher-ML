@@ -30,7 +30,7 @@ Example dataset path: `data/build_output_lines.csv` (you can generate synthetic 
 1. Clone the repository:
    ```bash
    git clone https://github.com/rajsingha/BuildErrorWatcher-ML.git
-   cd ErrorSentry
+   cd BuildErrorWatcher-ML
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -89,6 +89,26 @@ python train_error_classifier.py \
 - **Console report**: accuracy, precision, recall, and F1‑scores on test set
 
 ---
+
+## Result
+
+```
+2025-04-18 02:23:42,534 [INFO] Loaded 5009 samples from data/build_output_lines.csv
+2025-04-18 02:23:42,536 [INFO] Train/test split: 4007/1002 samples
+2025-04-18 02:23:42,602 [INFO] Training completed in 0.07 seconds
+2025-04-18 02:23:42,614 [INFO] Accuracy on test set: 0.997
+              precision    recall  f1-score   support
+
+           0      1.000     0.994     0.997       501
+           1      0.994     1.000     0.997       501
+
+    accuracy                          0.997      1002
+   macro avg      0.997     0.997     0.997      1002
+weighted avg      0.997     0.997     0.997      1002
+
+2025-04-18 02:23:42,673 [INFO] Saved trained model to error_classifier.joblib
+
+```
 
 ## Integration
 
