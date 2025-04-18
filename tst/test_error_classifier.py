@@ -5,7 +5,7 @@ class TestErrorClassifier(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # Load the trained classifier
-        cls.model = joblib.load("error_classifier.joblib")
+        cls.model = joblib.load("../error_classifier.joblib")
 
     def test_error_line(self):
         # A known error line should predict 1 (error)

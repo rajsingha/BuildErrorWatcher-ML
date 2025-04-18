@@ -8,6 +8,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score
+from skl2onnx import convert_sklearn
+from skl2onnx.common.data_types import StringTensorType
 import joblib
 
 
@@ -112,9 +114,9 @@ def main():
         param_grid = {
             'tfidf__ngram_range': [
                 (args.ngram_min, args.ngram_max),
-                (1,3)
+                (1, 3)
             ],
-            'tfidf__max_features': [args.max_features, args.max_features*2],
+            'tfidf__max_features': [args.max_features, args.max_features * 2],
             'clf__C': [0.1, 1, 10]
         }
         pipeline = GridSearchCV(
@@ -143,19 +145,18 @@ def main():
     logging.info(f"Saved trained model to {args.out}")
 
     # 8. Optional ONNX export
-    if args.onnx:
-        try:
-            from skl2onnx import convert_sklearn
-            from skl2onnx.common.data_types import StringTensorType
-            logging.info("Converting pipeline to ONNX format...")
-            initial_type = [("string_input", StringTensorType([None, 1]))]
-            onnx_model = convert_sklearn(pipeline, initial_types=initial_type)
-            onnx_path = os.path.splitext(args.out)[0] + ".onnx"
-            with open(onnx_path, "wb") as f:
-                f.write(onnx_model.SerializeToString())
-            logging.info(f"Saved ONNX model to {onnx_path}")
-        except ImportError:
-            logging.warning("skl2onnx not installed; skipping ONNX export")
+    # Determine actual estimator to export
+    trained_estimator = (
+        pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_')
+        else pipeline
+    )
+    logging.info("Converting trained pipeline to ONNX format...")
+    initial_type = [("string_input", StringTensorType([None, 1]))]
+    onnx_model = convert_sklearn(trained_estimator, initial_types=initial_type)
+    onnx_path = os.path.splitext(args.out)[0] + ".onnx"
+    with open(onnx_path, "wb") as f:
+        f.write(onnx_model.SerializeToString())
+    logging.info(f"Saved ONNX model to {onnx_path}")
 
 
 if __name__ == "__main__":
