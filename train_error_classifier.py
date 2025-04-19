@@ -185,16 +185,14 @@ def main():
     logging.info(f"Saved model to {model_out}")
 
     # Optional ONNX export
-    if args.onnx:
-        trained = pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_') else pipeline
-        logging.info("Converting to ONNX...")
-        init_type = [("string_input", StringTensorType([None, 1]))]
-        onnx_model = convert_sklearn(trained, initial_types=init_type)
-        onnx_path = os.path.splitext(model_out)[0] + ".onnx"
-        with open(onnx_path, 'wb') as f:
-            f.write(onnx_model.SerializeToString())
+    trained = pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_') else pipeline
+    logging.info("Converting to ONNX...")
+    init_type = [("string_input", StringTensorType([None, 1]))]
+    onnx_model = convert_sklearn(trained, initial_types=init_type)
+    onnx_path = os.path.splitext(model_out)[0] + ".onnx"
+    with open(onnx_path, 'wb') as f:
+        f.write(onnx_model.SerializeToString())
         logging.info(f"Saved ONNX model to {onnx_path}")
-
 
 if __name__ == "__main__":
     main()
