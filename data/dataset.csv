@@ -25390,3 +25390,368 @@ ht-pre-test-compile:,0
 [javac]      Note: Reused 723 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/META-INF/annotated/com.amazon.coral.annotation.Service,0
 [javac]      Note: Reused 723 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/generated/META-INF/annotated/com.amazon.coral.annotation.Service,0
 [javac]      Note: Detected provider classnames will be stored at: file:/local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[echo]       Replacing AmazonCommons-model-1.0's dependency on AmazonCommons-meta-1.0 with AmazonCommons-meta-1.2,0
+[echo]       Replacing AmazonCommons-model-1.0's dependency on AmazonCommons-meta-1.0 with AmazonCommons-meta-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-model-1.0 with AmazonCommons-model-1.2,0
+[echo]       Replacing AmazonCommons-model-meta-1.0's dependency on AmazonCommons-model-1.0 with AmazonCommons-model-1.2,0
+[echo]       Replacing AmazonCommons-deprecated-1.0's dependency on AmazonCommons-model-1.0 with AmazonCommons-model-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-model-meta-1.0 with AmazonCommons-model-meta-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-perl-1.0 with AmazonCommons-perl-1.2,0
+[echo]       Replacing AmazonCommons-service-1.0's dependency on AmazonCommons-perl-1.0 with AmazonCommons-perl-1.2,0
+[echo]       Replacing AmazonCommons-deprecated-1.0's dependency on AmazonCommons-perl-1.0 with AmazonCommons-perl-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-service-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-coral-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-webservice-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-deprecated-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-cache-1.0's dependency on AmazonCommons-request-1.0 with AmazonCommons-request-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-serialization-1.0 with AmazonCommons-serialization-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-service-1.0 with AmazonCommons-service-1.2,0
+[echo]       Replacing AmazonCommons-deprecated-1.0's dependency on AmazonCommons-service-1.0 with AmazonCommons-service-1.2,0
+[echo]       Replacing AmazonCommons-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-xml-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-coral-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-webservice-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-deprecated-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-cache-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing AmazonCommons-consistent-1.0's dependency on AmazonCommons-util-1.0 with AmazonCommons-util-1.2,0
+[echo]       Replacing BSFJavaClient-2.1's dependency on AmazonIdJava-1.0 with AmazonIdJava-2.0,0
+[echo]       Replacing AmazonCommons-consistent-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClientHttp-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClientHttpSupport-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClientNetty4-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClientNetty-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralClientConfig-1.0 with CoralClientConfig-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralClientExceptions-1.0 with CoralClientExceptions-1.1,0
+[echo]       Replacing CoralClientHttpSupport-1.0's dependency on CoralClientOrchestration-1.0 with CoralClientOrchestration-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralClientOrchestration-1.0 with CoralClientOrchestration-1.1,0
+[echo]       Replacing CoralClientHttpConfig-1.0's dependency on CoralConfig-1.0 with CoralConfig-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralContinuationOrchestrator-1.0 with CoralContinuationOrchestrator-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on CoralCore-1.0 with CoralCore-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralEnvelopeCore-1.0 with CoralEnvelopeCore-1.1,0
+[echo]       Replacing CoralClientHttpSupport-1.0's dependency on CoralHttpSupport-1.0 with CoralHttpSupport-1.1,0
+[echo]       Replacing CoralJsonSupport-1.0's dependency on CoralJsonValue-1.0 with CoralJsonValue-1.1,0
+[echo]       Replacing CoralTransmute-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralSerializeCore-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralGeneric-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralGenericValue-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralClientHttp-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralClientNetty-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[echo]       Replacing CoralJsonSupport-1.0's dependency on CoralOrchestrator-1.0 with CoralOrchestrator-1.1,0
+[echo]       Replacing CoralClientHttp-1.0's dependency on CoralOrchestrator-1.0 with CoralOrchestrator-1.1,0
+[echo]       Replacing CoralClientNetty-1.0's dependency on CoralOrchestrator-1.0 with CoralOrchestrator-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralQueryStringValue-1.0 with CoralQueryStringValue-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralSecurity-1.0 with CoralSecurity-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralSerialize-1.0 with CoralSerialize-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralSerializeCore-1.0 with CoralSerializeCore-1.1,0
+[echo]       Replacing CoralJsonSupport-1.0's dependency on CoralService-1.0 with CoralService-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralTransmute-1.0 with CoralTransmute-1.1,0
+[echo]       Replacing CoralJsonSupport-1.0's dependency on CoralTransmute-1.0 with CoralTransmute-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on CoralTransmutingProxySupport-1.0 with CoralTransmutingProxySupport-1.1,0
+[echo]       Replacing CoralJsonSupport-1.0's dependency on CoralTransmutingProxySupport-1.0 with CoralTransmutingProxySupport-1.1,0
+[echo]       Replacing DittoCoralSupport-1.0's dependency on CoralTransmutingProxySupport-1.0 with CoralTransmutingProxySupport-1.1,0
+[echo]       Replacing CoralModel-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralOrchestrator-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralQueryStringValue-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralValidate-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralJsonValue-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralXmlValue-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralXmlValue-1.0's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralValidate-1.0's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[echo]       Replacing CoralClient-1.0's dependency on CoralValidate-1.0 with CoralValidate-1.1,0
+[echo]       Replacing CoralEnvelope-1.0's dependency on CoralXmlValue-1.0 with CoralXmlValue-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on DittoCoralJsonSupport-1.0 with DittoCoralJsonSupport-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on DittoCoralSupport-1.0 with DittoCoralSupport-1.1,0
+[echo]       Replacing CoralRpcSupport-1.0's dependency on DittoSerializeJavaInterface-1.0 with DittoSerializeJavaInterface-1.1,0
+[echo]       Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[ht:taskdef] Replacing AmznJms-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[ht:taskdef] Replacing AmznJms-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[ht:taskdef] Replacing AmznJms-1.0's dependency on AmazonIdJava-1.0 with AmazonIdJava-2.0,0
+[ht:taskdef] Replacing AmazonCommons-consistent-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1,0
+[ht:taskdef] Replacing JavaServerToolkit-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1,0
+[ht:taskdef] Replacing CoralMetricsBridge-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1,0
+[ht:taskdef] Replacing TibcoJms-1.0's dependency on AmznJms-1.0 with AmznJms-1.1,0
+[ht:taskdef] Replacing FrameworkDatagramConverter-1.0's dependency on AmznJms-1.0 with AmznJms-1.1,0
+[ht:taskdef] Replacing AmqJms-1.0's dependency on AmznJms-1.0 with AmznJms-1.1,0
+[ht:taskdef] Replacing UdpJms-1.0's dependency on AmznJms-1.0 with AmznJms-1.1,0
+[ht:taskdef] Replacing AmazonJMSDeprecatedInterfaces-1.0's dependency on AmznJms-1.0 with AmznJms-1.1,0
+[ht:taskdef] Replacing PaymentsServiceUtils-1.0's dependency on AspectJRT-1.8.1 with AspectJRT-1.9.x,0
+[ht:taskdef] Replacing BSFJavaClient-1.0's dependency on AuthJava-1.0 with AuthJava-1.1,0
+[ht:taskdef] Replacing AmazonCommons-codigo-1.0's dependency on BSFJavaClient-1.0 with BSFJavaClient-2.1,0
+[ht:taskdef] Replacing PubsubJava-1.1's dependency on BSFJavaClient-1.0 with BSFJavaClient-2.1,0
+[ht:taskdef] Replacing PaymentsServiceUtils-1.0's dependency on CoralActivity-1.0 with CoralActivity-1.1,0
+[ht:taskdef] Replacing CoralService-1.0's dependency on CoralActivity-1.0 with CoralActivity-1.1,0
+[ht:taskdef] Replacing CoralValidate-1.0's dependency on CoralActivity-1.0 with CoralActivity-1.1,0
+[ht:taskdef] Replacing CoralTransmutingProxy-1.0's dependency on CoralAttributes-1.0 with CoralAttributes-1.1,0
+[ht:taskdef] Replacing CoralCachingSupport-1.0's dependency on CoralCacheValue-1.0 with CoralCacheValue-1.1,0
+[ht:taskdef] Replacing CoralService-1.0's dependency on CoralCachingSupport-1.0 with CoralCachingSupport-1.1,0
+[ht:taskdef] Replacing CoralClientBuilder-1.0's dependency on CoralClient-1.0 with CoralClient-1.1,0
+[ht:taskdef] Replacing JettyBSFHTTPServer-1.0's dependency on CoralCompressionEngine-1.0 with CoralCompressionEngine-1.1,0
+[ht:taskdef] Replacing CoralMetricsQuerylogReporter-1.0's dependency on CoralMetricsReporter-1.1 with CoralMetricsReporter-1.0,0
+[ht:taskdef] Replacing CoralService-1.0's dependency on CoralModeledExceptions-1.0 with CoralModeledExceptions-1.1,0
+[ht:taskdef] Replacing DittoCoralSupport-1.0's dependency on CoralModeledExceptions-1.0 with CoralModeledExceptions-1.1,0
+[ht:taskdef] Replacing CoralService-1.0's dependency on CoralReflect-1.0 with CoralReflect-1.1,0
+[ht:taskdef] Replacing CoralValidate-1.0's dependency on CoralReflect-1.0 with CoralReflect-1.1,0
+[ht:taskdef] Replacing PaymentsServiceUtils-1.0's dependency on CoralService-1.0 with CoralService-1.1,0
+[ht:taskdef] Replacing JavaServerToolkit-1.0's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[ht:taskdef] Replacing JettyBSFHTTPServer-1.0's dependency on CoralUtil-1.0 with CoralUtil-1.1,0
+[ht:taskdef] Replacing CoralSerialize-1.1's dependency on DittoCoralJsonSupport-1.0 with DittoCoralJsonSupport-1.1,0
+[ht:taskdef] Replacing YaUtils-1.0's dependency on FindBugsAnnotations-1.3.7 with FindBugsAnnotations-3.x,0
+[ht:taskdef] Replacing PaymentsIonSerializationTools-1.1's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x,0
+[ht:taskdef] Replacing PaymentsIonSerializationTools-2.0_lite's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x,0
+[ht:taskdef] Replacing PaymentsServiceUtils-1.0's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x,0
+[ht:taskdef] Replacing AmazonCommons-serialization-1.0's dependency on FrameworkDatagramConverter-1.0 with FrameworkDatagramConverter-1.1,0
+[ht:taskdef] Replacing junit-4's dependency on Hamcrest-1.1 with Hamcrest-1.3,0
+[ht:taskdef] Replacing Jetty-1.0's dependency on J2ee_servlet-1.0 with J2ee_servlet-3.0,0
+[ht:taskdef] Replacing CoralMetricsBridge-1.0's dependency on JSmart4JCT-1.0 with JSmart4JCT-1.1,0
+[ht:taskdef] Replacing JacksonIon-2.8's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[ht:taskdef] Replacing JMESPathJava-1.12.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[ht:taskdef] Replacing Jackson-dataformat-cbor-2.12.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[ht:taskdef] Replacing AWSJavaClientCore-1.12.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[ht:taskdef] Replacing JettyBSFHTTPServer-1.0's dependency on Jetty-1.0 with Jetty-9.4.43.v20210629,0
+[ht:taskdef] Replacing AmazonCommons-html-1.0's dependency on Json-org-java-2.1 with Json-org-java-2.2,0
+[ht:taskdef] Replacing CoralAAASupport-2.1's dependency on AAARuntimeJavaClient-2.0 with AAARuntimeJavaClient-1.1,0
+[ht:taskdef] Replacing AAAJAXRSSupport-1.0's dependency on AAARuntimeJavaClient-1.0 with AAARuntimeJavaClient-1.1,0
+[ht:taskdef] Replacing WeblabClientMonitoring-1.0's dependency on CoralMetricsQuerylogReporter-1.0 with CoralMetricsQuerylogReporter-1.1,0
+[ht:taskdef] Replacing JavaServerToolkit-1.0's dependency on CoralMetricsReporter-1.0 with CoralMetricsReporter-1.1,0
+[ht:taskdef] Replacing CoralMetricsBridge-1.0's dependency on CoralMetricsReporter-1.0 with CoralMetricsReporter-1.1,0
+[ht:taskdef] Replacing PaymentsServiceUtils-1.0's dependency on CoralMetricsReporter-1.0 with CoralMetricsReporter-1.1,0
+[ht:taskdef] Replacing AWSDynamoDBJavaModel-1.12.x's dependency on JMESPathJava-1.12.x with JMESPathJava-1.0,0
+[ht:taskdef] Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x,0
+[ht:taskdef] Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x,0
+[ht:taskdef] Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[ht:taskdef] Replacing Jackson-dataformat-cbor-2.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[ht:taskdef] Replacing PaymentsIonSerializationTools-1.1's dependency on JacksonIon-1.9 with JacksonIon-2.8,0
+[ht:taskdef] Replacing AmazonCommons-html-1.0's dependency on Json-org-java-2.2 with Json-org-java-2.1,0
+[ht:taskdef] Replacing OdinLocalRetriever-1.0's dependency on Json-org-java-2.2 with Json-org-java-2.1,0
+[ht:taskdef] Replacing AmazonCommons-rules-1.0's dependency on junit-4 with junit-4.12,0
+[ht:taskdef] Replacing TestNG-6.x's dependency on junit-4 with junit-4.12,0
+[ht:taskdef] Replacing CoralAAASupport-1.0's dependency on AAARuntimeJavaClient-1.0 with AAARuntimeJavaClient-2.0,0
+[ht:taskdef] Replacing TurtleCredentialSource-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[ht:taskdef] Replacing PaymentsConfigurationUtils-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[ht:taskdef] Replacing AmazonCommons-1.0's dependency on AmazonCommons-bsf-1.0 with AmazonCommons-bsf-1.2,0
+[property]   Caching Avro-Java-1.9.0.23808.0/AL2_aarch64/S3TOC,0
+[property]   Caching Avro-Java-1.9.0.23808.0/AL2_aarch64/S3TOC,0
+[property]   Caching Maven-com-amazonaws_aws-encryption-sdk-java-2.x.87491.0/AL2_aarch64/S3TOC,0
+[property]   Caching LZ4-Java-1.x.434343.0/AL2_aarch64/S3TOC,0
+[property]   Caching Maven-com-amazonaws-secretsmanager_aws-secretsmanager-caching-java-1.x.78029.0/AL2_aarch64/S3TOC,0
+"[property]   Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'LumosX-ClientCrypto-1.x_internal' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'LumosX-ClientCrypto-1.x_internal' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AWSJavaClientCore-1.11.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'LumosX-ClientCrypto-1.x_internal' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x, as specified in 'AWSRetailProxyServiceClientLibrary-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AWSJavaClientCore-1.11.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x, as specified in 'AWSRetailProxyServiceClientLibrary-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'TokenizationVaultARestInterface-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'AWSGlueSchemaRegistryGithubMirror-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonAppConfigJava-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'AaaTlsJavaWithDaemonSupport-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AuthJava-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'AaaTlsJavaWithDaemonSupport-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing GoogleGuice-4.1's dependency on GoogleGuava-20.x with GoogleGuava-21.x, as specified in 'AnonymizationCore-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'AnonymizationCore-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'AnonymizationCore-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'AnonymizationCore-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AWSJavaClientCore-1.11.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'AnonymizationCore-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaCore-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'ARest-Client-Aaa-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonFileAppenderJava-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'ARest-Client-Aaa-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonJMS-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'GFSCalvinClaws-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AMPJmsExtension-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'GFSCalvinClaws-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonJMSDeprecatedInterfaces-1.0's dependency on log4j-2.6 with log4j-1.2, as specified in 'GFSCalvinClaws-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Reflections-0.9.x's dependency on GoogleGuava-21.x with GoogleGuava-30.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-datatype-joda-2.8.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-dataformat-yaml-2.8.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-datatype-joda-2.8.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PayStationServiceModelJava-1.0's dependency on PaymentsIonSerializationTools-1.1 with PaymentsIonSerializationTools-2.0.2_lite, as specified in 'PaymentServicesDiagnostics-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PayStationServiceModelJava-1.0's dependency on PaymentsIonSerializationTools-2.0.2_lite with PaymentsIonSerializationTools-1.2, as specified in 'PayStationExtensionsPluginShadowLibrary-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-util-1.0's dependency on log4j-1.2 with log4j-2.8, as specified in 'UnitModelJava-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-logging-1.0's dependency on log4j-1.2 with log4j-2.8, as specified in 'UnitModelJava-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaServerToolkit-1.0's dependency on log4j-1.2 with log4j-2.8, as specified in 'UnitModelJava-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.0's dependency on log4j-1.2 with log4j-2.8, as specified in 'UnitModelJava-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-util-1.0's dependency on log4j-2.8 with log4j-1.2, as specified in 'GFSCalvinEvent-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-logging-1.0's dependency on log4j-2.8 with log4j-1.2, as specified in 'GFSCalvinEvent-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaServerToolkit-1.0's dependency on log4j-2.8 with log4j-1.2, as specified in 'GFSCalvinEvent-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.0's dependency on log4j-2.8 with log4j-1.2, as specified in 'GFSCalvinEvent-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Reflections-0.9.x's dependency on Javassist-3.18.1.GA with Javassist-3.19.x, as specified in 'GiftCardPaymentProcessorPluginServiceInterface-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PayStationServiceModelJava-1.0's dependency on PaymentsIonSerializationTools-1.2 with PaymentsIonSerializationTools-1.3, as specified in 'GiftCardPaymentProcessorPluginServiceInterface-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PaymentsServiceUtils-1.0's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x, as specified in 'BusinessProfileAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing RestEasy-core-3.0.x's dependency on Javassist-3.21.x with Javassist-3.x, as specified in 'BusinessProfileAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing HK2-locator-2.x's dependency on Javassist-3.21.x with Javassist-3.x, as specified in 'BusinessProfileAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing OdinLocalRetriever-1.0's dependency on Json-org-java-2.1 with Json-org-java-2.2, as specified in 'BusinessProfileAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-datatype-jsr310-2.8.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x, as specified in 'PayStationServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-datatype-jsr310-2.8.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x, as specified in 'PayStationServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x, as specified in 'PayStationServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing HK2-locator-2.x's dependency on Javassist-3.x with Javassist-3.19.x, as specified in 'AuthenticationSourceAuthorityServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing OdinLocalRetriever-1.0's dependency on Json-org-java-2.3 with Json-org-java-2.2, as specified in 'AuthenticationSourceAuthorityServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'PayStationTrackerNotification-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PaymentsIonSerializationTools-1.1's dependency on JacksonIon-2.8 with JacksonIon-1.9, as specified in 'PaymentOptionAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing RestEasy-core-3.0.x's dependency on Javassist-3.19.x with Javassist-3.21.x, as specified in 'PaymentOptionAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing HK2-locator-2.x's dependency on Javassist-3.19.x with Javassist-3.21.x, as specified in 'PaymentOptionAuthorityServiceJavaARestClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing BSFJavaClient-2.1's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CoralOrchestrator-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CoralValidate-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CoralJsonValue-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CoralModel-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CoralXmlValue-1.1's dependency on CoralUtil-1.0 with CoralUtil-1.1, as specified in 'PaymentContractExecutionServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing RestEasy-core-3.0.x's dependency on Javassist-3.21.x with Javassist-3.19.x, as specified in 'InstallmentPlanAuthorityServiceClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'PayStationExtensionsServiceInternalJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing RestEasy-core-3.0.x's dependency on Javassist-3.19.x with Javassist-3.20.x, as specified in 'PayStationExtensionsServiceInternalJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaCore-1.0's dependency on log4j-2.x with log4j-1.2, as specified in 'GFSCalvin-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaCore-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing BSFJavaClient-2.1's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing CodigoJavaClientUtilities-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmznJms-1.1's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaCore-1.0's dependency on log4j-1.2 with log4j-2.x, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.0's dependency on log4j-1.2 with log4j-2.x, as specified in 'BusinessProfile-MAPSTranslation-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.0's dependency on log4j-2.x with log4j-2.6, as specified in 'GiftCardPaymentProcessorPluginServiceJavaClient-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonProfilerJava-1.1's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0, as specified in 'PaymentContractThrottlingUtils-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing BSFJavaClient-2.1's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1, as specified in 'PaymentContractThrottlingUtils-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AAASecurityDaemonJavaClient-1.0's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x, as specified in 'PaymentContractThrottlingUtils-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaCore-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1, as specified in 'PaymentContractClientLibrary-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x, as specified in 'PaymentContractClientLibrary-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing PaymentsIonSerializationTools-1.2's dependency on FindBugsAnnotations-1.3.9 with FindBugsAnnotations-3.x, as specified in 'PaymentContractUtils-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AAASecurityDaemonJavaClient-1.0's dependency on JUnixSocket-1 with JUnixSocket-2.x, as specified in 'BadgerServiceNotificationDecryptor-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JMESPathJava-1.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x, as specified in 'BadgerServiceNotificationDecryptor-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AWSJavaClientCore-1.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x, as specified in 'BadgerServiceNotificationDecryptor-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-html-1.2's dependency on Json-org-java-2.3 with Json-org-java-2.2, as specified in 'PaymentContract-FeatureCatalog-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x, as specified in 'BusinessProfile-Routing-1.0' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing AmazonCommons-codigo-1.2's dependency on BSFJavaClient-1.0 with BSFJavaClient-2.1, as specified in 'PCEInputTypes-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+"[property]   Replacing JavaServerToolkit-1.1's dependency on BSFJavaClient-1.0 with BSFJavaClient-2.1, as specified in 'PCEInputTypes-1.2' Config. See https://w.amazon.com/?ForcedConflictResolve",0
+[findbugs]   Reading transitive closure of all dependencies 'Config' file,0
+[findbugs]   Reading transitive closure of all dependencies 'Config' file,0
+[findbugs]   Replacing JavaEE_JSP-2.3's dependency on J2ee_servlet-3.1 with J2ee_servlet-4.x,0
+[findbugs]   Replacing PortJacksonIonToJackson-dataformat-ion-1.0's dependency on Jackson-dataformat-ion-2.10.x with Jackson-dataformat-ion-2.12.x,0
+[findbugs]   Replacing Reflections-0.9.x's dependency on GoogleGuava-20.x with GoogleGuava-21.x,0
+[findbugs]   Replacing OdinLocalRetriever-1.0's dependency on Json-org-java-2.1 with Json-org-java-2.3,0
+[findbugs]   Replacing OdinAWSBaseUtils-1.0's dependency on OdinLocalRetriever-1.0 with OdinLocalRetriever-1.1,0
+[findbugs]   Replacing Jackson-module-afterburner-2.8.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing PaymentsIonSerializationTools-1.2's dependency on JakartaCommons-lang3-3.0 with JakartaCommons-lang3-3.x,0
+[findbugs]   Replacing FinancialOfferModelJava-1.1's dependency on PaymentsIonSerializationTools-1.1 with PaymentsIonSerializationTools-1.2,0
+[findbugs]   Replacing PaymentsSharedTypesJava-1.1's dependency on PaymentsIonSerializationTools-1.1 with PaymentsIonSerializationTools-1.2,0
+[findbugs]   Replacing FinancialOfferModelJava-1.1's dependency on PaymentsIonSerializationTools-1.2 with PaymentsIonSerializationTools-2.0.1_lite,0
+[findbugs]   Replacing PaymentsSharedTypesJava-1.1's dependency on PaymentsIonSerializationTools-1.2 with PaymentsIonSerializationTools-2.0.1_lite,0
+[findbugs]   Replacing JacksonIon-2.8's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing OdinAWSCredentials-1.3's dependency on OdinAWSBaseUtils-1.0 with OdinAWSBaseUtils-1.1,0
+[findbugs]   Replacing FortifyBrazil-2.4's dependency on ApacheAnt-1.9.x with ApacheAnt-1.10.x,0
+[findbugs]   Replacing HerdWorkIndexTypes-1.0's dependency on AmazonCommons-meta-1.0 with AmazonCommons-meta-1.2,0
+[findbugs]   Ignoring AmazonKinesisProducerLibraryExternalRelease-1.14.x's 'library' dependency on GoogleGuava-30.x because of 'resolves-conflict' dependency on GoogleGuava-28.x. See https://w.amazon.com/?ForcedConflictResolve,0
+[findbugs]   Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing AWSGlueSchemaRegistryGithubMirror-1.0's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing PaymentsServiceUtils-1.0's dependency on AspectJRT-1.8.1 with AspectJRT-1.9.x,0
+[findbugs]   Replacing PaymentsServiceUtils-1.0's dependency on JakartaCommons-lang3-3.0 with JakartaCommons-lang3-3.x,0
+[findbugs]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x,0
+[findbugs]   Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.8.x with Jackson-annotations-2.12.x,0
+[findbugs]   Replacing JMESPathJava-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing AWSJavaClientCore-1.11.x's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing AWSGlueSchemaRegistryGithubMirror-1.0's dependency on Jackson-databind-2.8.x with Jackson-databind-2.12.x,0
+[findbugs]   Replacing OdinSharedTypes-1.0's dependency on CoralModel-1.0 with CoralModel-1.1,0
+[findbugs]   Replacing CoralClientHttp-1.0's dependency on JakartaCommons-httpclient-3.0 with JakartaCommons-httpclient-3.1,0
+[findbugs]   Replacing AaaServiceJavaClientFromAAAServiceModelGeneratedCode-1.0's dependency on CoralJavaClientDependencies-1.0 with CoralJavaClientDependencies-1.1,0
+[findbugs]   Ignoring TotsStorageRouter-1.1's 'library' dependency on AWSSecurityTokenServiceJavaClient-external_release_1.10 because of 'resolves-conflict' dependency on AWSSecurityTokenServiceJavaClient-1.11.x. See https://w.amazon.com/?ForcedConflictResolve,0
+[findbugs]   Replacing TurtleCredentialSource-1.0's dependency on AmazonAppConfigJava-2.0 with AmazonAppConfigJava-1.0,0
+[findbugs]   Replacing PaymentsServiceUtils-1.0's dependency on FindBugsAnnotations-1.3.7 with FindBugsAnnotations-1.3.9,0
+[findbugs]   Replacing DynamoDbLib-1.0's dependency on JakartaCommons-lang3-3.0 with JakartaCommons-lang3-3.x,0
+[findbugs]   Replacing AaaAmazonAppConfigInterface-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[findbugs]   Replacing DynamoDbGrammar-1.0's dependency on ANTLR-Runtime-4.1 with ANTLR-Runtime-4.5,0
+[findbugs]   Replacing TotsStorageRouter-1.1's dependency on AspectJRT-1.9.x with AspectJRT-1.8.1,0
+[findbugs]   Replacing PaymentsServiceUtils-1.0's dependency on AspectJRT-1.9.x with AspectJRT-1.8.1,0
+[findbugs]   Replacing AAASecurityDaemonJavaClient-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing AaaJavaEnvironmentRootProvider-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing AAASecurityDaemonJavaClient-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[findbugs]   Replacing AAASecurityDaemonJavaClient-1.0's dependency on AuthJava-1.0 with AuthJava-1.1,0
+[findbugs]   Replacing JavaCore-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[findbugs]   Replacing AmazonProfilerJava-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[findbugs]   Replacing AmazonFileAppenderJava-1.0's dependency on AmazonAppConfigJava-1.0 with AmazonAppConfigJava-2.0,0
+[findbugs]   Replacing Jackson-databind-2.8.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x,0
+[findbugs]   Replacing Jackson-databind-2.12.x's dependency on Jackson-annotations-2.12.x with Jackson-annotations-2.8.x,0
+[findbugs]   Replacing Swagger-core-2.x's dependency on Jackson-annotations-2.9.x with Jackson-annotations-2.8.x,0
+[findbugs]   Replacing Jackson-datatype-joda-2.9.x's dependency on Jackson-annotations-2.9.x with Jackson-annotations-2.8.x,0
+[findbugs]   Replacing Jackson-databind-2.9.x's dependency on Jackson-annotations-2.9.x with Jackson-annotations-2.8.x,0
+[findbugs]   Replacing Jackson-datatype-joda-2.9.x's dependency on Jackson-core-2.9.x with Jackson-core-2.8.x,0
+[findbugs]   Replacing Jackson-dataformat-yaml-2.9.x's dependency on Jackson-core-2.9.x with Jackson-core-2.8.x,0
+[findbugs]   Replacing Jackson-databind-2.9.x's dependency on Jackson-core-2.9.x with Jackson-core-2.8.x,0
+[findbugs]   Replacing Jackson-dataformat-cbor-2.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing JMESPathJava-1.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing AWSJavaClientCore-1.12.x's dependency on Jackson-databind-2.12.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing Jackson-datatype-joda-2.9.x's dependency on Jackson-databind-2.9.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing Jackson-dataformat-yaml-2.9.x's dependency on Jackson-databind-2.9.x with Jackson-databind-2.8.x,0
+[findbugs]   Replacing Swagger-core-2.x's dependency on Jackson-dataformat-yaml-2.9.x with Jackson-dataformat-yaml-2.8.x,0
+[findbugs]   Replacing HK2-locator-2.x's dependency on Javassist-3.18.2.GA with Javassist-3.19.x,0
+[findbugs]   Replacing Reflections-0.9.x's dependency on Javassist-3.18.2.GA with Javassist-3.19.x,0
+[findbugs]   Replacing AAARuntimeJavaClient-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing JavaCore-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing AAACommonUtils-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing AAAServiceJavaClient-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2,0
+[findbugs]   Replacing JavaCore-1.0's dependency on AmazonIdJava-1.0 with AmazonIdJava-2.0,0
+[findbugs]   Replacing JavaCore-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1,0
+[findbugs]   Replacing AAARuntimeJavaClient-1.0's dependency on AuthJava-1.0 with AuthJava-1.1,0
+[findbugs]   Replacing HerdCoral-1.7's dependency on CoralAAASupport-1.1 with CoralAAASupport-1.0,0
+[findbugs]   Replacing CoralModeledExceptions-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing CoralValidate-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing PayStationServiceCoralTypes-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing CoralModel-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing CoralActivity-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing CoralService-1.0's dependency on CoralAnnotation-1.0 with CoralAnnotation-1.1,0
+[findbugs]   Replacing CoralClient-1.0's dependency on CoralBeanValue-1.0 with CoralBeanValue-1.1,0
+[findbugs]   Replacing CoralOrchestrator-1.0's dependency on CoralBeanValue-1.0 with CoralBeanValue-1.1,0
+[findbugs]   Replacing CoralTransmute-1.0's dependency on CoralBeanValue-1.0 with CoralBeanValue-1.1,0
+[findbugs]   Replacing CoralGenericValue-1.0's dependency on CoralBeanValue-1.0 with CoralBeanValue-1.1,0
+[findbugs]   Replacing CoralClient-1.0's dependency on CoralClientCall-1.0 with CoralClientCall-1.1,0
+[findbugs]   Replacing CoralGATCallVisitor-1.0's dependency on CoralClientCall-1.0 with CoralClientCall-1.1,0
+[findbugs]   Replacing CoralCore-1.0's dependency on CoralClientCall-1.0 with CoralClientCall-1.1,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 341 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 225 conflicting class definitions in following locations:,0
+[ht:validateClasspath]          ... and 108 more classes in 2 more java packages,0
+[ht:validateClasspath] 4 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 29 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 34 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 2 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 156 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 117 conflicting class definitions in following locations:,0
+"[ht:validateClasspath]          nu.xom.canonical.[CanonicalizationException,Canonicalizer,Canonicalizer$1,Canonicalizer$AttributeComparator, ... and 1 more class]",0
+[ht:validateClasspath] 79 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 2 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 13 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1985 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 103 conflicting class definitions in following locations:,0
+"[ht:validateClasspath]          javax.xml.bind.util.[JAXBResult,JAXBSource,JAXBSource$1,Messages, ... and 1 more class]",0
+[ht:validateClasspath] 2 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 36 conflicting class definitions in following locations:,0
+[ht:validateClasspath]          ... and 14 more classes in 3 more java packages,0
+[ht:validateClasspath] 29 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 37 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 2 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 404 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 54 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 1 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 6 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 68 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 38 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 6 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 168 conflicting class definitions in following locations:,0
+"[ht:validateClasspath]          org.jaxen.function.ext.[EndsWithFunction,EvaluateFunction,LocaleFunctionSupport,LowerFunction, ... and 1 more class]",0
+[ht:validateClasspath]          ... and 54 more classes in 4 more java packages,0
+[ht:validateClasspath] 14 conflicting class definitions in following locations:,0
+"[ht:validateClasspath]          javax.annotation.security.[DeclareRoles,DenyAll,PermitAll,RolesAllowed, ... and 1 more class]",0
+[ht:validateClasspath] 10 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 83 conflicting class definitions in following locations:,0
+[ht:validateClasspath]          lombok.extern.java.Log,0
+[ht:validateClasspath] 125 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 429 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 2 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 17 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 9 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 176 conflicting class definitions in following locations:,0
+[ht:validateClasspath]          ... and 88 more classes in 1 more java packages,0
+[ht:validateClasspath] 101 conflicting class definitions in following locations:,0
+[ht:validateClasspath]          ... and 78 more classes in 7 more java packages,0
+[ht:validateClasspath] 136 conflicting class definitions in following locations:,0
+[ht:validateClasspath] 162 conflicting class definitions in following locations:,0

@@ -32,15 +32,15 @@ def parse_args():
         help="Also convert and save an ONNX model alongside"
     )
     parser.add_argument(
-        "--test-size", type=float, default=0.6,
+        "--test-size", type=float, default=0.2,
         help="Fraction of data to reserve for final testing"
     )
     parser.add_argument(
-        "--val-size", type=float, default=0.3,
+        "--val-size", type=float, default=0.2,
         help="Fraction of training data to reserve for validation"
     )
     parser.add_argument(
-        "--random-state", type=int, default=42,
+        "--random-state", type=int, default=59,
         help="Random seed for splitting and algorithms"
     )
     parser.add_argument(
@@ -52,7 +52,7 @@ def parse_args():
         help="Maximum n-gram size for TF-IDF"
     )
     parser.add_argument(
-        "--max-features", type=int, default=5000,
+        "--max-features", type=int, default=3000,
         help="Max features for TF-IDF vectorizer"
     )
     parser.add_argument(
@@ -73,6 +73,10 @@ def parse_args():
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Logging level"
     )
+    parser.add_argument(
+        "--regularization", type=float, default=1.0,
+        help="C parameter for logistic regression (lower values = stronger regularization)"
+    )
     return parser.parse_args()
 
 
@@ -90,35 +94,46 @@ def main():
     y = df['label']
     logging.info(f"Loaded {len(df)} samples from {args.data}")
 
-    # Split into train+val and test
-    X_train_val, X_test, y_train_val, y_test = train_test_split(
+    # First split to get a test set aside
+    X_temp, X_test, y_temp, y_test = train_test_split(
         X, y,
         test_size=args.test_size,
         random_state=args.random_state,
         stratify=y
     )
-    logging.info(f"Train+Val/Test split: {len(X_train_val)}/{len(X_test)} samples")
 
-    # Further split train into train and validation
-    val_frac = args.val_size / (1 - args.test_size)
+    # Then split the temp set into train and validation
     X_train, X_val, y_train, y_val = train_test_split(
-        X_train_val, y_train_val,
-        test_size=val_frac,
+        X_temp, y_temp,
+        test_size=args.val_size,
         random_state=args.random_state,
-        stratify=y_train_val
+        stratify=y_temp
     )
-    logging.info(f"Train/Val split: {len(X_train)}/{len(X_val)} samples")
 
-    # Build base pipeline
+    logging.info(f"Split sizes - Train: {len(X_train)}, Val: {len(X_val)}, Test: {len(X_test)} samples")
+
+    # Apply basic text cleaning (remove duplicates in train set)
+    X_train_unique = X_train.drop_duplicates()
+    y_train_unique = y_train.loc[X_train_unique.index]
+    duplicate_reduction = len(X_train) - len(X_train_unique)
+    if duplicate_reduction > 0:
+        logging.info(f"Removed {duplicate_reduction} duplicate entries from training data")
+        X_train = X_train_unique
+        y_train = y_train_unique
+
+    # Build base pipeline with increased regularization to combat overfitting
     base_pipeline = Pipeline([
         ("tfidf", TfidfVectorizer(
             ngram_range=(args.ngram_min, args.ngram_max),
-            max_features=args.max_features
+            max_features=args.max_features,
+            min_df=3,  # Ignore terms that appear in less than 3 documents
+            max_df=0.9  # Ignore terms that appear in more than 90% of documents
         )),
         ("clf", LogisticRegression(
+            C=args.regularization,  # Lower C means more regularization
             class_weight="balanced",
             solver=args.solver,
-            max_iter=300,
+            max_iter=500,
             random_state=args.random_state
         ))
     ])
@@ -126,26 +141,29 @@ def main():
     pipeline = base_pipeline
     if args.grid_search:
         param_grid = {
-            'tfidf__ngram_range': [
-                (args.ngram_min, args.ngram_max),
-                (1, 3)
-            ],
-            'tfidf__max_features': [args.max_features, args.max_features * 2],
-            'clf__C': [0.01, 0.1, 1, 10]
+            'tfidf__max_features': [2000, 3000, 5000],
+            'tfidf__min_df': [2, 3, 5],
+            'tfidf__max_df': [0.8, 0.9, 0.95],
+            'clf__C': [0.01, 0.1, 1.0]  # Try different regularization strengths
         }
         pipeline = GridSearchCV(
             base_pipeline,
             param_grid=param_grid,
             cv=5,
             n_jobs=args.n_jobs,
-            verbose=2
+            verbose=2,
+            scoring='f1_weighted'  # Use F1 score for optimization
         )
         logging.info("Using GridSearchCV for hyperparameter tuning")
 
     # Train
     start = time.time()
     pipeline.fit(X_train, y_train)
-    logging.info(f"Training completed in {time.time() - start:.2f}s")
+    training_time = time.time() - start
+    logging.info(f"Training completed in {training_time:.2f}s")
+
+    if args.grid_search and hasattr(pipeline, 'best_params_'):
+        logging.info(f"Best parameters: {pipeline.best_params_}")
 
     # Evaluate on validation set
     logging.info("Validation set evaluation:")
@@ -176,6 +194,7 @@ def main():
         with open(onnx_path, 'wb') as f:
             f.write(onnx_model.SerializeToString())
         logging.info(f"Saved ONNX model to {onnx_path}")
+
 
 if __name__ == "__main__":
     main()
