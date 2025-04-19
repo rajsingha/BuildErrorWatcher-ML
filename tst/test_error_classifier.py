@@ -15,7 +15,7 @@ class TestErrorClassifier(unittest.TestCase):
 
     def test_noise_line(self):
         # A known noise line should predict 0 (noise)
-        sample = "Version available"
+        sample = "Upgrade to a newer version of HappierTrails to use FindBugs."
         pred = self.model.predict([sample])[0]
         self.assertEqual(pred, 0, f"Expected noise prediction for '{sample}'")
 

@@ -19,7 +19,7 @@ def parse_args():
     )
     parser.add_argument(
         "--data", "-d",
-        default="data/build_output_lines.csv",
+        default="data/dataset.csv",
         help="Path to CSV with columns: line,label (1=error,0=noise)"
     )
     parser.add_argument(
@@ -32,7 +32,7 @@ def parse_args():
         help="Also convert and save an ONNX model alongside"
     )
     parser.add_argument(
-        "--test-size", type=float, default=0.2,
+        "--test-size", type=float, default=0.42,
         help="Fraction of data to reserve for testing (0.0-1.0)"
     )
     parser.add_argument(
