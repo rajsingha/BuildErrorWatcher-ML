@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# error_log_filter.py
-
 import joblib
 from typing import List
 import os
@@ -45,11 +42,13 @@ if __name__ == "__main__":
         description="Print only the error lines from a build log"
     )
     parser.add_argument(
-        "-m", "--model", required=True,
+        "-m", "--model",
+        default="error_classifier.joblib",
         help="Path to your trained joblib model (e.g. error_classifier.joblib)"
     )
     parser.add_argument(
-        "-l", "--log", required=True,
+        "-l", "--log",
+        default="input_errors.txt",
         help="Path to the raw build log file (e.g. build_output.txt)"
     )
     args = parser.parse_args()

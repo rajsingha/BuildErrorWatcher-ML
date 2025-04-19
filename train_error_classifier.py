@@ -15,7 +15,7 @@ import joblib
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Train a build-error classifier (TF-IDF + Logistic Regression)"
+        description="Train a build-error classifier (TF-IDF + Logistic Regression) with validation"
     )
     parser.add_argument(
         "--data", "-d",
@@ -32,12 +32,16 @@ def parse_args():
         help="Also convert and save an ONNX model alongside"
     )
     parser.add_argument(
-        "--test-size", type=float, default=0.42,
-        help="Fraction of data to reserve for testing (0.0-1.0)"
+        "--test-size", type=float, default=0.6,
+        help="Fraction of data to reserve for final testing"
+    )
+    parser.add_argument(
+        "--val-size", type=float, default=0.3,
+        help="Fraction of training data to reserve for validation"
     )
     parser.add_argument(
         "--random-state", type=int, default=42,
-        help="Random seed for train-test split and any randomized algorithms"
+        help="Random seed for splitting and algorithms"
     )
     parser.add_argument(
         "--ngram-min", type=int, default=1,
@@ -77,7 +81,7 @@ def main():
     logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s",
                         level=getattr(logging, args.log_level))
 
-    # 1. Load data
+    # Load data
     if not os.path.isfile(args.data):
         logging.error(f"Data file not found: {args.data}")
         return
@@ -86,17 +90,27 @@ def main():
     y = df['label']
     logging.info(f"Loaded {len(df)} samples from {args.data}")
 
-    # 2. Split
-    X_train, X_test, y_train, y_test = train_test_split(
+    # Split into train+val and test
+    X_train_val, X_test, y_train_val, y_test = train_test_split(
         X, y,
         test_size=args.test_size,
         random_state=args.random_state,
         stratify=y
     )
-    logging.info(f"Train/test split: {len(X_train)}/{len(X_test)} samples")
+    logging.info(f"Train+Val/Test split: {len(X_train_val)}/{len(X_test)} samples")
 
-    # 3. Build pipeline
-    pipeline = Pipeline([
+    # Further split train into train and validation
+    val_frac = args.val_size / (1 - args.test_size)
+    X_train, X_val, y_train, y_val = train_test_split(
+        X_train_val, y_train_val,
+        test_size=val_frac,
+        random_state=args.random_state,
+        stratify=y_train_val
+    )
+    logging.info(f"Train/Val split: {len(X_train)}/{len(X_val)} samples")
+
+    # Build base pipeline
+    base_pipeline = Pipeline([
         ("tfidf", TfidfVectorizer(
             ngram_range=(args.ngram_min, args.ngram_max),
             max_features=args.max_features
@@ -109,7 +123,7 @@ def main():
         ))
     ])
 
-    # 4. Optional grid search
+    pipeline = base_pipeline
     if args.grid_search:
         param_grid = {
             'tfidf__ngram_range': [
@@ -117,47 +131,51 @@ def main():
                 (1, 3)
             ],
             'tfidf__max_features': [args.max_features, args.max_features * 2],
-            'clf__C': [0.1, 1, 10]
+            'clf__C': [0.01, 0.1, 1, 10]
         }
         pipeline = GridSearchCV(
-            pipeline,
+            base_pipeline,
             param_grid=param_grid,
             cv=5,
             n_jobs=args.n_jobs,
             verbose=2
         )
-        logging.info("Running GridSearchCV...")
+        logging.info("Using GridSearchCV for hyperparameter tuning")
 
-    # 5. Train
-    start_time = time.time()
+    # Train
+    start = time.time()
     pipeline.fit(X_train, y_train)
-    elapsed = time.time() - start_time
-    logging.info(f"Training completed in {elapsed:.2f} seconds")
+    logging.info(f"Training completed in {time.time() - start:.2f}s")
 
-    # 6. Evaluate
-    y_pred = pipeline.predict(X_test)
-    acc = accuracy_score(y_test, y_pred)
-    logging.info(f"Accuracy on test set: {acc:.3f}")
-    print(classification_report(y_test, y_pred, digits=3))
+    # Evaluate on validation set
+    logging.info("Validation set evaluation:")
+    y_val_pred = pipeline.predict(X_val)
+    val_acc = accuracy_score(y_val, y_val_pred)
+    logging.info(f"Validation Accuracy: {val_acc:.3f}")
+    print("Validation Classification Report:\n", classification_report(y_val, y_val_pred, digits=3))
 
-    # 7. Save model
-    joblib.dump(pipeline, args.out)
-    logging.info(f"Saved trained model to {args.out}")
+    # Final evaluation on test set
+    logging.info("Test set evaluation:")
+    y_test_pred = pipeline.predict(X_test)
+    test_acc = accuracy_score(y_test, y_test_pred)
+    logging.info(f"Test Accuracy: {test_acc:.3f}")
+    print("Test Classification Report:\n", classification_report(y_test, y_test_pred, digits=3))
 
-    # 8. Optional ONNX export
-    # Determine actual estimator to export
-    trained_estimator = (
-        pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_')
-        else pipeline
-    )
-    logging.info("Converting trained pipeline to ONNX format...")
-    initial_type = [("string_input", StringTensorType([None, 1]))]
-    onnx_model = convert_sklearn(trained_estimator, initial_types=initial_type)
-    onnx_path = os.path.splitext(args.out)[0] + ".onnx"
-    with open(onnx_path, "wb") as f:
-        f.write(onnx_model.SerializeToString())
-    logging.info(f"Saved ONNX model to {onnx_path}")
+    # Save model
+    model_out = args.out
+    joblib.dump(pipeline, model_out)
+    logging.info(f"Saved model to {model_out}")
 
+    # Optional ONNX export
+    if args.onnx:
+        trained = pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_') else pipeline
+        logging.info("Converting to ONNX...")
+        init_type = [("string_input", StringTensorType([None, 1]))]
+        onnx_model = convert_sklearn(trained, initial_types=init_type)
+        onnx_path = os.path.splitext(model_out)[0] + ".onnx"
+        with open(onnx_path, 'wb') as f:
+            f.write(onnx_model.SerializeToString())
+        logging.info(f"Saved ONNX model to {onnx_path}")
 
 if __name__ == "__main__":
     main()

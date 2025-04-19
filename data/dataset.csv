@@ -25239,3 +25239,154 @@ npm ERR! code ELIFECYCLE,1
 Initialized empty Git repository in /local/p4clients/.../TestWukongFargatePluginCDK/.git/,0
 Using BMDSInternal AWSAuth Client with endpoint https://brazil-metadata.amazon.com/bmds.internal/...,0
 [INFO ] Task Info: ApexPluginTestSDK (GitFarm:ApexPluginTestSDK@1971105e7646b1464a5b916dfa530ccfb1d5cc48),0
+Upgrade to a newer version of HappierTrails to use FindBugs,0
+[javac]      Support for javac --release has been added in Java9 ignoring it,0
+[javac]      Note: com.amazon.coral.client.FeatureAnnotationProcessor initialized...,0
+[javac]      Note: com.amazon.coral.service.ServiceAnnotationProcessor initialized...,0
+[javac]      Note: Annotation processor for 'com.amazon.coral.annotation.Service',0
+[javac]      Note: Successfully retrieved 4 elements annotated with 'Service',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.hops.HopsClientMock.GetTransactionsByTransactionIdCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pcds.PaymentContractDefinitionServiceClientMock.GetPaymentContractRevisionByIDCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pcds.PaymentContractDefinitionServiceClientMock.GetPaymentContractRevisionByIDOrBusinessReferenceCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pmas.PaymentAssessmentServiceClientMock.AssessPaymentOptionOutputStub',0
+[javac]      Note: com.amazon.coral.model.reflect.CustomTraitsProcessor initialized...,0
+[javac]      Note: com.amazon.coral.model.reflect.TraitsAnnotationProcessor initialized...,0
+[javac]      Note: Annotation processor for 'com.amazon.coral.annotation.Service',0
+[javac]      Note: Successfully retrieved 0 elements annotated with 'Service',0
+[javac]      Note: Annotation processor for 'com.amazon.coral.annotation.Service',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.auditor.AuditPaymentContractBalanceActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.auditor.AuditPaymentContractBalanceActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.auditor.EmitMetricsForLongPendingBalanceActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.AllocatePaymentContractTransactionsActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.CreateChargePlanActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.FindRefundsActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetAllocationActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetChargeActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetChargesActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetDisbursementActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetFundingSourceActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetFundingSourceByPaymentContractIDActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.paystation.GetRefundActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.processor.throttle.CreateProcessorThrottleRuleActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.processor.throttle.DeleteProcessorThrottleRuleActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.processor.throttle.GetProcessorThrottleRuleHistoryActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.processor.throttle.ListProcessorThrottleRulesActivity',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.activity.processor.throttle.UpdateProcessorThrottleRuleActivity',0
+[javac]      Note: com.amazon.coral.model.reflect.CustomTraitsProcessor initialized...,0
+[javac]      Note: com.amazon.coral.model.reflect.TraitsAnnotationProcessor initialized...,0
+[javac]      Note: Successfully retrieved 0 elements annotated with 'Service',0
+[javac]      Note: Reused 650 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/generated/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Note: Detected provider classnames will be stored at: file:/local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Creating empty /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/com/amazon/paymentcontractexecution/executionplan/package-info.class,0
+[javac]      Creating empty /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/com/amazon/paymentcontractexecution/activity/core/package-info.class,0
+[javac]      Creating empty /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/com/amazon/paymentcontractexecution/activity/package-info.class,0
+[javac]      Creating empty /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/com/amazon/paymentcontractexecution/activity/technician/package-info.class,0
+[copy]       Copying 21 files to /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library,0
+[echo]       Weaving binary class files: /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library,0
+[javac]      Note: com.amazon.coral.client.FeatureAnnotationProcessor initialized...,0
+[javac]      Note: com.amazon.coral.client.FeatureAnnotationProcessor initialized...,0
+[javac]      Note: com.amazon.coral.service.ServiceAnnotationProcessor initialized...,0
+[javac]      Note: Successfully retrieved 79 elements annotated with 'Service',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.PaymentContractExecutionServiceClient',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.AllocatePaymentContractTransactionsCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.CreateChargePlanCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.CreateProcessorThrottleRuleCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.CreateRefundCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.DeletePaymentExecutionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.DeletePaymentTransactionsByPaymentContractIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.DeleteProcessorThrottleRuleCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.DetermineProcessingAuthorityCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.ExecuteDiagnosticCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.ExecutePaymentOperationCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.FindRefundsCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetAllocationCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetAuthBlockedPayablesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetChargeCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetChargesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetDisbursementCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetFundingSourceCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetFundingSourcesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentContractTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentExecutionGroupCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentExecutionIDBySignatureAndProcessorIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentExecutionRegistryDataCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentTransactionByPaymentExecutionIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentTransactionsByPaymentContractIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetPaymentTransactionsBySignatureCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetProcessorThrottleRuleHistoryCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetRefundCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetSealsAdapterPaymentContractRevisionIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.GetSealsTransactionByPaymentTransactionIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.ListProcessorThrottleRuleHistoriesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.ListProcessorThrottleRulesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.PaymentProcessorListenerCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.PaymentUpdateListenerCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.PublishTransactionToHopsCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RedriveCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RefundAgainstSEALSChargeCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RegionalizePaymentTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RepublishPSNSNotificationCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RepublishPaymentTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.RerunPaymentOperationCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.ResetPaymentExecutionStateCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.SQSMessageListenerCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.UnblockAuthBlockedPayablesCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.UpdatePaymentExecutionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.UpdatePaymentTransactionByIonCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.impl.UpdateProcessorThrottleRuleCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.sealslistener.PCEListenerServiceClient',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.sealslistener.impl.PostResponseCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.PaymentContractExecutionWorkflowRetryServiceClient',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.AuditPaymentContractBalanceCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.DecideToTerminatePCESOperationRerunWorkflowCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.DiagnosePaymentContractCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.EmitMetricsForLongPendingBalanceCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.LookupEventsForRegisteredPaymentExecutionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.LookupRegisteredEventsForRequestIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.LookupRegisteredPaymentExecutionsCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.PerformBalanceAutoReleaseCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.PostProcessingWorkflowCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.RerunAllOperationsFromExecutionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.RerunPaymentOperationWorkflowCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.workflow.retry.impl.RetryPaymentExecutionWorkflowCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.PaymentContractExecutionShadowServiceClient',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.ExecuteDiagnosticCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.ExecutePaymentOperationCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetChargeCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetDisbursementCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetPaymentTransactionByPaymentExecutionIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetPaymentTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetPaymentTransactionsByPaymentContractIDCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetPaymentTransactionsBySignatureCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.GetRefundCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.PaymentProcessorListenerCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.RedriveCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.RepublishPaymentTransactionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.SQSMessageListenerCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.UpdatePaymentExecutionCall',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecutionshadow.impl.UpdatePaymentTransactionByIonCall',0
+[javac]      Note: com.amazon.coral.model.reflect.CustomTraitsProcessor initialized...,0
+[javac]      Note: com.amazon.coral.model.reflect.TraitsAnnotationProcessor initialized...,0
+[javac]      Note: Successfully retrieved 0 elements annotated with 'Service',0
+[javac]      Note: Reused 650 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/generated/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Note: Detected provider classnames will be stored at: file:/local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[copy]       Copying 2 files to /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests,0
+ht-pre-test-compile:,0
+-standard-test-compile:,0
+[javac]      Compiling 619 source files to /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests,0
+[javac]      Support for javac --release has been added in Java9 ignoring it,0
+[javac]      Note: com.amazon.coral.client.FeatureAnnotationProcessor initialized...,0
+[javac]      Note: com.amazon.coral.service.ServiceAnnotationProcessor initialized...,0
+[javac]      Note: Successfully retrieved 4 elements annotated with 'Service',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.hops.HopsClientMock.GetTransactionsByTransactionIdCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pcds.PaymentContractDefinitionServiceClientMock.GetPaymentContractRevisionByIDCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pcds.PaymentContractDefinitionServiceClientMock.GetPaymentContractRevisionByIDOrBusinessReferenceCallStub',0
+[javac]      Note: processing 'com.amazon.paymentcontractexecution.clients.pmas.PaymentAssessmentServiceClientMock.AssessPaymentOptionOutputStub',0
+[javac]      Note: com.amazon.coral.model.reflect.CustomTraitsProcessor initialized...,0
+[javac]      Note: com.amazon.coral.model.reflect.TraitsAnnotationProcessor initialized...,0
+[javac]      Note: Successfully retrieved 0 elements annotated with 'Service',0
+[javac]      Note: Reused 668 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Note: Reused 723 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/library/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Note: Reused 723 providers from preexisting output file /local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/generated/META-INF/annotated/com.amazon.coral.annotation.Service,0
+[javac]      Note: Detected provider classnames will be stored at: file:/local/p4clients/pkgbuild-GQJaE/workspace/build/PaymentContractExecutionServiceCommon/PaymentContractExecutionServiceCommon-1.0.19914.0/AL2_aarch64/DEV.STD.PTHREAD/build/private/classes/tests/META-INF/annotated/com.amazon.coral.annotation.Service,0
