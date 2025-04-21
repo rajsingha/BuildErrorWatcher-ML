@@ -22,6 +22,7 @@ class ErrorLogFilter:
             r'failed with exit code',
             r'compilation failed',
             r'build failed',
+            r'failed',
             r'unresolved reference',
             # Common Java/JVM errors
             r'nullpointerexception',
@@ -33,6 +34,7 @@ class ErrorLogFilter:
             r'unexpected token',
             r'is not defined',
             r'is not a function',
+            r'fail',
             # Python errors
             r'importerror',
             r'indentationerror',

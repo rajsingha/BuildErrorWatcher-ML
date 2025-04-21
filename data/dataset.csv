@@ -25834,4 +25834,14 @@ Unresolved reference: externalPaymentIntentResource,1
 Unresolved reference: ,1
 Unresolved reference:,1
 Unresolved reference,1
-Unresolved ,
+Unresolved ,1
+PASS test/unit-tests/components/widgets/StanzaRfiCustomerAgreementWidget/StanzaRfiCustomerAgreementComponent.test.tsx,0
+PASS test/unit-tests/components/widgets/StanzaRfiCustomerAgreementWidget/StanzaRfiCustomerAgreementComponent.test.tsx,0
+PASS test/unit-tests/util/OwnerEntityRequirementsTransformer.test.ts,0
+PASS test/unit-tests/components/onboardingRestart/organizeDocuments/CountryOfCitizenshipDropdownTests.tsx,0
+PASS test/unit-tests/components/onboardingRestart/organizeDocuments/OrganizeYourDocumentsSectionTests.tsx,0
+PASS test/unit-tests/components/widgets/StanzaOnboardingBasicDetailsWidget/BusinessLocationCheckbox.test.tsx (9.625 s),0
+PASS test/unit-tests/components/onboardingRestart/welcomeBackHeader/WelcomeBackHeaderTests.tsx,0
+PASS test/unit-tests/slice/submitSlice.test.ts,0
+PASS test/unit-tests/components/widgets/StanzaOnboardingBasicDetailsWidget/BusinessTypeDropDown.test.tsx (9.686 s),0
+PASS test/unit-tests/api/registrationStatusApi.test.ts,0
