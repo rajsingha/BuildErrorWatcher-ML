@@ -1,0 +1,346 @@
+Starting task...
+[INFO ] Using BMDSInternal AWSAuth Client with endpoint https://brazil-metadata.amazon.com/bmds.internal/...
+[INFO ]
+hardware_system_info:
+    apollo_network_type = MAWS
+    cpuarch = x86_64
+    cpucount = 1
+    cpuspeed = 2.30
+    cputype = Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+    hw_id = i-0931bf97b3f43a133
+    kernel = 5.4.290-216.397.amzn2int.x86_64
+    location = corporate-PDX4
+    manufacturer = Xen
+    meminstalled = 245625MB
+    reported_hostname = ip-172-22-37-225.amazon.com
+    server_type_id = i3.8xlarge
+installed_os:
+    release = AL2S
+system_resources:
+    cpu_mhz = 2300
+    disk_gb = 0
+    memory_mb = 245625
+[INFO ] Task Info: PayStationPluginSDK (GitFarm:PayStationPluginSDK@fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd) (New version: 1.1.95349.0)
+INFO Caching ARest-Client-Aaa-2.0.1863750.0/AL2_x86_64/Catalog
+INFO Caching ARest-Client-Aaa-2.0.1863750.0/AL2_x86_64/Built-Dependencies
+INFO Caching ARest-Client-CloudAuth-1.1.47985.0/AL2_x86_64/Catalog
+INFO Caching ARest-Client-CloudAuth-1.1.47985.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSJavaClientRuntime-1.11.x.5432637.0/AL2_x86_64/Catalog
+INFO Caching AWSJavaClientRuntime-1.11.x.5432637.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSJavaClientSigners-1.12.x.3530859.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSPersistenceJavaClient-1.11.x.4588204.0/AL2_x86_64/Catalog
+INFO Caching AWSPersistenceJavaClient-1.11.x.4588204.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSS3JavaClientMock-1.11.1046650.0/AL2_x86_64/Catalog
+INFO Caching AWSS3JavaClientMock-1.11.1046650.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSSQSJavaClient-1.11.x.5351668.0/AL2_x86_64/Catalog
+INFO Caching AWSSQSJavaClient-1.11.x.5351668.0/AL2_x86_64/Built-Dependencies
+INFO Caching AWSStepFunctionsJavaClient-1.11.x.3333707.0/AL2_x86_64/Catalog
+INFO Caching AWSStepFunctionsJavaClient-1.11.x.3333707.0/AL2_x86_64/Built-Dependencies
+INFO Caching Apache-HttpComponents-HttpClient-4.4.x.652443.0/AL2_x86_64/Built-Dependencies
+INFO Caching AspectJRT-1.8.273980.0/AL2_x86_64/Built-Dependencies
+INFO Caching AspectJTools-1.8.286596.0/AL2_x86_64/Built-Dependencies
+INFO Caching CloudWatchCoralMetricsReporter-1.6_Coral1.1.299124.0/AL2_x86_64/Catalog
+INFO Caching CloudWatchCoralMetricsReporter-1.6_Coral1.1.299124.0/AL2_x86_64/Built-Dependencies
+INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/Catalog
+INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/Built-Dependencies
+INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/Catalog
+INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/Built-Dependencies
+INFO Caching IonJaxRsProvider-2.1.65364.0/AL2_x86_64/Catalog
+INFO Caching IonJaxRsProvider-2.1.65364.0/AL2_x86_64/Built-Dependencies
+INFO Caching JMESPathJava-1.0.665695.0/AL2_x86_64/Built-Dependencies
+INFO Caching KotlinReflect-1.3.x.67498.0/AL2_x86_64/Built-Dependencies
+INFO Caching KotlinTrailsGradle-1.3.x.309290.0/AL2_x86_64/Catalog
+INFO Caching KotlinTrailsGradle-1.3.x.309290.0/AL2_x86_64/Built-Dependencies
+INFO Caching KotlinxCoroutinesCore-1.1.x.4184.0/AL2_x86_64/Catalog
+INFO Caching KotlinxCoroutinesCore-1.1.x.4184.0/AL2_x86_64/Built-Dependencies
+INFO Caching KotlinxCoroutinesJdk8-1.1.x.3607.0/AL2_x86_64/Catalog
+INFO Caching KotlinxCoroutinesJdk8-1.1.x.3607.0/AL2_x86_64/Built-Dependencies
+INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/Catalog
+INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/Built-Dependencies
+INFO Caching Log4j-core-2.8.1073664.0/AL2_x86_64/Built-Dependencies
+INFO Caching MetricAggregationCloudWatchClient-2.3_WITH_VENDED_METRICS.1701225.0/AL2_x86_64/Catalog
+INFO Caching MetricAggregationCloudWatchClient-2.3_WITH_VENDED_METRICS.1701225.0/AL2_x86_64/Built-Dependencies
+INFO Caching PayStationCryptoUtils-1.1.83857.0/AL2_x86_64/Catalog
+INFO Caching PayStationCryptoUtils-1.1.83857.0/AL2_x86_64/Built-Dependencies
+INFO Caching PayStationExtensionsRemittanceTranslator-1.0.263681.0/AL2_x86_64/Catalog
+INFO Caching PayStationExtensionsRemittanceTranslator-1.0.263681.0/AL2_x86_64/Built-Dependencies
+INFO Caching PayStationExtensionsServiceJavaClient-1.5.74863.0/AL2_x86_64/Catalog
+INFO Caching PayStationExtensionsServiceJavaClient-1.5.74863.0/AL2_x86_64/Built-Dependencies
+INFO Caching PayStationPrivilegedOperations-1.1.44517.0/AL2_x86_64/Catalog
+INFO Caching PayStationPrivilegedOperations-1.1.44517.0/AL2_x86_64/Built-Dependencies
+INFO Caching PayStationServiceJavaClient-2.0.489776.0/AL2_x86_64/Catalog
+INFO Caching PayStationServiceJavaClient-2.0.489776.0/AL2_x86_64/Built-Dependencies
+INFO Caching PaymentProcessorPluginInterface-1.0.304156.0/AL2_x86_64/Catalog
+INFO Caching PaymentProcessorPluginInterface-1.0.304156.0/AL2_x86_64/Built-Dependencies
+INFO Caching PaymentProcessorPluginInterfaceV2-1.4.63604.0/AL2_x86_64/Catalog
+INFO Caching PaymentProcessorPluginInterfaceV2-1.4.63604.0/AL2_x86_64/Built-Dependencies
+INFO Caching Swagger-core-2.x.128710.0/AL2_x86_64/Built-Dependencies
+[INFO ] Building against FxAccsProcessorService/mainline-FxAccsProcessorServiceTarget@-1 on platform AL2_x86_64
+[INFO ] Using BMDSInternal AWSAuth Client with endpoint https://brazil-metadata.amazon.com/bmds.internal/...
+[INFO ] Downloading source from repository.
+Creating path /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK init' with '0' retries.
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+Initialized empty Git repository in /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK/.git/
+hint:     git config --global init.defaultBranch <name>
+hint:
+Git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK init' succeeded after '0' retries.
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK lfs install --local' with '0' retries.
+hint:
+hint:     git branch -m <name>
+Updated Git hooks.
+Git LFS initialized.
+Git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK lfs install --local' succeeded after '0' retries.
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK remote add origin ssh://git-build.gitfarm.aws.dev:22/pkg/PayStationPluginSDK' with '0' retries.
+Git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK remote add origin ssh://git-build.gitfarm.aws.dev:22/pkg/PayStationPluginSDK' succeeded after '0' retries.
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK fetch ssh://git-build.gitfarm.aws.dev:22/pkg/PayStationPluginSDK fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd --depth=1 --no-tags' with '1' retries.
+Git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK fetch ssh://git-build.gitfarm.aws.dev:22/pkg/PayStationPluginSDK fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd --depth=1 --no-tags' succeeded after '0' retries.
+Could not create directory '/opt/amazon/dev-services/etc/p4admin-home/.ssh'.
+Warning: Permanently added 'git-build.gitfarm.aws.dev,52.39.65.118' (RSA) to the list of known hosts.
+From ssh://git-build.gitfarm.aws.dev:22/pkg/PayStationPluginSDK
+* branch            fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd -> FETCH_HEAD
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK -c advice.detachedHead=false checkout fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd' with '1' retries.
+Git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK -c advice.detachedHead=false checkout fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd' succeeded after '0' retries.
+HEAD is now at fdbf75f Add ExternalPaymentIntent API support
+Running git command '/apollo/env/PackageBuilderTasks/bin/git -C /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK log -1 --pretty=[%h by %ce] %B'
+Removing .git directory from /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK/.git
+Updating timestamps to 1744799303
+Touched 165 files
+Use of uninitialized value in list assignment at /apollo/env/PackageBuilderTasks/perl/lib/perl5.8/Amazon/JSON/PipeClient.pm line 47.
+[INFO ] Gathering SLOC analysis...
+[INFO ] Creating caching allowlist for 58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67.58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2
+[INFO ] /apollo/env/DockerBuildFleetNode/bin/create-caching-allowlist --sandbox-name sandbox-58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67.58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2 --workspace-root /local/p4clients/pkgbuild-dQ8dM/workspace --version-set FxAccsProcessorService/mainline-FxAccsProcessorServiceTarget --package-cache-root /apollo/env/DockerBuildFleetNode/var/brazil-package-cache
+[INFO ] Successfully created caching allowlist
+[INFO ] Container home directory created at: /local/p4clients/pkgbuild-dQ8dM/workspace/container_home_64194
+[INFO ] Task 58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2 will be executed by user 64194:100 in the container
+[INFO ] /apollo/env/DockerBuildFleetNode/bin/sandboxed-builder --btm-task-id 58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67 --instance-id 58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2 --package-name PayStationPluginSDK --package-major-version 1.1 --package-version 1.1.95349.0 --change-id fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd --version-set FxAccsProcessorService/mainline-FxAccsProcessorServiceTarget --platform AL2_x86_64 --dependency-model brazil --type basic --network blocked --request-id 7325129353 --source-dir /opt/brazil-pkg-cache/packages/PayStationPluginSDK/PayStationPluginSDK-1.1.95349.0/AL2_x86_64/generic-flavor/src --workspace-root /local/p4clients/pkgbuild-dQ8dM/workspace --container-home-dir /local/p4clients/pkgbuild-dQ8dM/workspace/container_home_64194 --working-dir /local/p4clients/pkgbuild-dQ8dM/workspace/src/PayStationPluginSDK --metrics-file /local/p4clients/package-cache-metrics.U0XH --exit-status-file /local/p4clients/package-cache-exit-status.kN1g --user 64194:100 --normalize-workspace-root --build-env-config /apollo/env/DockerBuildFleetNode/var/brazil-package-cache/packages/BuildEnvironment/BuildEnvironment-1.0.225633.0/AL2_x86_64/generic-flavor/src/Config -- BRAZIL_PACKAGE_VERSION=1.1.95349.0 BRAZIL_PACKAGE_INTERFACE=1.1 BRAZIL_PACKAGE_CHANGE_ID=fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd MAKE_OUTPUT_LEVEL=VERBOSE PACKAGE_DIRECTORY=/opt/brazil-pkg-cache/packages/PayStationPluginSDK/PayStationPluginSDK-1.1.95349.0/AL2_x86_64/generic-flavor/src /apollo/env/SDETools/bin/brazil-build release
+[INFO ] [sandbox] Executing as user sandbox...
+[INFO ] [sandbox] start: [["BRAZIL_PACKAGE_VERSION=1.1.95349.0", "BRAZIL_PACKAGE_INTERFACE=1.1", "BRAZIL_PACKAGE_CHANGE_ID=fdbf75fd1c83726a2a9b91ac9af36d704c36c0fd", "MAKE_OUTPUT_LEVEL=VERBOSE", "PACKAGE_DIRECTORY=/opt/brazil-pkg-cache/packages/PayStationPluginSDK/PayStationPluginSDK-1.1.95349.0/AL2_x86_64/generic-flavor/src", "/apollo/env/SDETools/bin/brazil-build", "release"]]
+[INFO ] [sandbox] Changing ownership of /local/p4clients/pkgbuild-dQ8dM/workspace and its contents to 64194:100...
+[INFO ] [sandbox]
+CONTAINER INFORMATION:
+Name = sandbox-58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67.58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2
+Host = pb-worker-prod-i38xl-2c-54-db458044.us-west-2.amazon.com
+Network = blocked
+Shared Memory Size = 500MB
+MEMORY LIMITATIONS:
+These limits are primarily intended to prevent a runaway build task
+from taking over a host and are therefore set conservatively high.
+Hard limit: container will not be allowed to exceed this much memory
+Memory = 64GB
+Soft limit: if Docker detects contention for memory resources, it will attempt to reclaim memory from containers exceeding the soft limit.
+In the absence of memory contention on the system, the soft limit is ignored.
+Memory Reservation = 32GB
+[INFO ] [sandbox] Searching for package build credentials for PayStationPluginSDK-1.1...
+[INFO ] [sandbox] Searching for build-tool credentials...
+[INFO ] [sandbox] No build related credentials found
+[INFO ] [sandbox] container create: [name=sandbox-58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67.58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2 image=468143737673.dkr.ecr.us-west-2.amazonaws.com/sandboxed-builds/al2_x86_64:al2_x86_64-2.0-1.0.212279.0]
+[INFO ] [sandbox] container create succeeded: id=00f4a2f5fcf677bc3e182f039041645074175ff115c4843d7631b8a94caca98a
+[INFO ] [sandbox] >>> container start ============================================================
+2025-04-16 10:28:33 INFO [KotlinTrailsGradle-1.3.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [AspectJRT-1.8/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [Ktlint-0.31.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [KotlinGradlePlugin-1.3.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [DeclarativeCoralMetricsAspectJ-2.2/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [KtlintGradle-7.2.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [DaggerBuildTool-2.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [JavaBuildAndTestMin-jdk8/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [Kotlin-1.3.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [BrazilGradleQualityDefaults-5.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [AspectJTools-1.8/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO [BrazilGradle-5.x/runtime] Resolving dependencies
+2025-04-16 10:28:33 INFO Caching KotlinTrailsGradle-1.3.x.309290.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:33 INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:33 INFO [KtlintGradle-7.2.x/runtime] Building symlink farm of 2 packages from package cache
+2025-04-16 10:28:33 INFO [AspectJRT-1.8/runtime] Building symlink farm of 1 packages from package cache
+2025-04-16 10:28:33 INFO [AspectJTools-1.8/runtime] Building symlink farm of 1 packages from package cache
+2025-04-16 10:28:33 INFO [KtlintGradle-7.2.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:33 INFO [AspectJRT-1.8/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:33 INFO [AspectJTools-1.8/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:33 INFO [Kotlin-1.3.x/runtime] Building symlink farm of 1 packages from package cache
+2025-04-16 10:28:33 INFO [Kotlin-1.3.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:33 INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:33 INFO [AspectJRT-1.8/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/AspectJRT-1.8/runtime
+2025-04-16 10:28:33 INFO [AspectJTools-1.8/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/AspectJTools-1.8/runtime
+2025-04-16 10:28:33 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:33 INFO [Kotlin-1.3.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/Kotlin-1.3.x/runtime
+2025-04-16 10:28:33 INFO Caching Maven-org-eclipse-aether_aether-transport-http-1.1.x.563544.0/AL2_x86_64/Catalog
+2025-04-16 10:28:33 INFO [KtlintGradle-7.2.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/KtlintGradle-7.2.x/runtime
+2025-04-16 10:28:33 INFO Caching Maven-org-eclipse-aether_aether-transport-http-1.1.x.563544.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:33 INFO [JavaBuildAndTestMin-jdk8/runtime] Building symlink farm of 4 packages from package cache
+2025-04-16 10:28:33 INFO [JavaBuildAndTestMin-jdk8/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:33 INFO [KotlinGradlePlugin-1.3.x/runtime] Building symlink farm of 26 packages from package cache
+2025-04-16 10:28:33 INFO [KotlinGradlePlugin-1.3.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-producers-2.x.267205.0/AL2_x86_64/Catalog
+2025-04-16 10:28:34 INFO [Ktlint-0.31.x/runtime] Building symlink farm of 55 packages from package cache
+2025-04-16 10:28:34 INFO [Ktlint-0.31.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-compiler-2.x.323801.0/AL2_x86_64/Catalog
+2025-04-16 10:28:34 INFO Caching Maven-org-eclipse-aether_aether-transport-http-1.1.x.563544.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-producers-2.x.267205.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:34 INFO [KotlinTrailsGradle-1.3.x/runtime] Building symlink farm of 22 packages from package cache
+2025-04-16 10:28:34 INFO [KotlinTrailsGradle-1.3.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO [DeclarativeCoralMetricsAspectJ-2.2/runtime] Building symlink farm of 9 packages from package cache
+2025-04-16 10:28:34 INFO [DeclarativeCoralMetricsAspectJ-2.2/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO Caching KotlinTrailsGradle-1.3.x.309290.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Maven-org-eclipse-aether_aether-transport-http-1.1.x.563544.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO [BrazilGradle-5.x/runtime] Building symlink farm of 24 packages from package cache
+2025-04-16 10:28:34 INFO [BrazilGradle-5.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO [BrazilGradleQualityDefaults-5.x/runtime] Building symlink farm of 41 packages from package cache
+2025-04-16 10:28:34 INFO [BrazilGradleQualityDefaults-5.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-compiler-2.x.323801.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:34 INFO Caching KotlinTrailsGradle-1.3.x.309290.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching Ktlint-0.31.x.160556.0/AL2_x86_64/DEV.STD.PTHREAD/build/maven
+2025-04-16 10:28:34 INFO Caching DeclarativeCoralMetricsAspectJ-2.2.481671.0/AL2_x86_64/DEV.STD.PTHREAD/build/bin
+2025-04-16 10:28:34 INFO [KotlinGradlePlugin-1.3.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/KotlinGradlePlugin-1.3.x/runtime
+2025-04-16 10:28:34 INFO [JavaBuildAndTestMin-jdk8/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/JavaBuildAndTestMin-jdk8/runtime
+2025-04-16 10:28:34 INFO Caching Maven-org-eclipse-aether_aether-transport-http-1.1.x.563544.0/AL2_x86_64/DEV.STD.PTHREAD/build/maven
+2025-04-16 10:28:34 INFO [DeclarativeCoralMetricsAspectJ-2.2/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/DeclarativeCoralMetricsAspectJ-2.2/runtime
+2025-04-16 10:28:34 INFO [KotlinTrailsGradle-1.3.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/KotlinTrailsGradle-1.3.x/runtime
+2025-04-16 10:28:34 INFO Caching AutoCommon-0.x.642075.0/AL2_x86_64/Catalog
+2025-04-16 10:28:34 INFO [BrazilGradle-5.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/BrazilGradle-5.x/runtime
+2025-04-16 10:28:34 INFO Caching Google-java-format-1.x.272939.0/AL2_x86_64/Catalog
+2025-04-16 10:28:34 INFO [BrazilGradleQualityDefaults-5.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/BrazilGradleQualityDefaults-5.x/runtime
+2025-04-16 10:28:34 INFO Caching AutoCommon-0.x.642075.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:34 INFO [Ktlint-0.31.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/Ktlint-0.31.x/runtime
+2025-04-16 10:28:34 INFO Caching Google-java-format-1.x.272939.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:34 INFO Caching AutoCommon-0.10.38581.0/AL2_x86_64/Catalog
+2025-04-16 10:28:34 INFO Caching AutoCommon-0.10.38581.0/AL2_x86_64/generic-flavor/src/Config
+2025-04-16 10:28:34 INFO [DaggerBuildTool-2.x/runtime] Building symlink farm of 36 packages from package cache
+2025-04-16 10:28:34 INFO [DaggerBuildTool-2.x/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-compiler-2.x.323801.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-producers-2.x.267205.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching AutoCommon-0.10.38581.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-producers-2.x.267205.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-producers-2.x.267205.0/AL2_x86_64/DEV.STD.PTHREAD/build/maven
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-compiler-2.x.323801.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching Google-java-format-1.x.272939.0/AL2_x86_64/S3TOC
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching Maven-com-google-dagger_dagger-compiler-2.x.323801.0/AL2_x86_64/DEV.STD.PTHREAD/build/maven
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/DEV.STD.PTHREAD/build/test
+2025-04-16 10:28:34 INFO Caching Google-java-format-1.x.272939.0/AL2_x86_64/DEV.STD.PTHREAD/build/lib
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/DEV.STD.PTHREAD/build/bin
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/DEV.STD.PTHREAD/build/perl
+2025-04-16 10:28:34 INFO Caching DaggerBuildTool-2.x.327908.0/AL2_x86_64/DEV.STD.PTHREAD/build/config
+2025-04-16 10:28:34 INFO [DaggerBuildTool-2.x/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/DaggerBuildTool-2.x/runtime
+Running build command 'brazil-gradle'
+2025-04-16 10:28:35 INFO [Java-default/runtime] Rebuilding environment because it doesn't exist at /local/p4clients/pkgbuild-const/workspace/env/Java-default/runtime
+2025-04-16 10:28:35 INFO [Java-default/runtime] Resolving dependencies
+2025-04-16 10:28:35 INFO [Java-default/runtime] Building symlink farm of 3 packages from package cache
+2025-04-16 10:28:35 INFO [Java-default/runtime] Caching runtime components of dependencies
+2025-04-16 10:28:35 INFO [Java-default/runtime] Successfully created environment at /local/p4clients/pkgbuild-const/workspace/env/Java-default/runtime
+/local/p4clients/pkgbuild-const/workspace/env/Java-default/runtime/jdk1.8
+Welcome to Gradle 5.6.4!
+Here are the highlights of this release:
+- Incremental Groovy compilation
+- Groovy compile avoidance
+- Test fixtures for Java projects
+- Manage plugin versions via settings script
+For more details see https://docs.gradle.org/5.6.4/release-notes.html
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar
+> Task :buildSrc:assemble
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build
+> Configure project :
+BrazilPlugin was loaded for project 'PayStationPluginSDK'
+Replacing CoralClientHttp-1.0's dependency on JakartaCommons-httpclient-3.0 with JakartaCommons-httpclient-3.1, as specified in 'ARest-Client-Aaa-2.0' Config. See https://w.amazon.com/?ForcedConflictResolve
+WARNING: Duplicate key "build-environment" in scope [package.Groot]. Replacing previous value "{chroot=basic, network-access=blocked}" with "{chroot=basic, network-access=blocked}"
+WARNING: Duplicate key "build-system" in scope [package.Groot]. Replacing previous value "happytrails" with "happytrails"
+> Configure project :
+Replacing OdinLocalRetriever-1.0's dependency on Json-org-java-2.1 with Json-org-java-2.3, as specified in 'OdinAWSAuth-1.11.x' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing OdinAWSBaseUtils-1.0's dependency on OdinLocalRetriever-1.0 with OdinLocalRetriever-1.2, as specified in 'OdinAWSAuth-1.11.x' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing OdinAWSAuth-1.11.x's dependency on OdinAWSCredentials-1.3 with OdinAWSCredentials-1.7, as specified in 'BeachUtilitiesCrypto-2.0' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing CoralClientHttp-1.0's dependency on JakartaCommons-httpclient-3.0 with JakartaCommons-httpclient-3.1, as specified in 'ARest-Client-Aaa-3.0' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing RestEasy-core-3.0.x's dependency on Apache-HttpComponents-HttpClient-4.2 with Apache-HttpComponents-HttpClient-4.5.x, as specified in 'PayStationServiceJavaClient-2.0' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing RestEasy-multipart-provider-3.0.x's dependency on Apache-mime4j-0.6 with Apache-mime4j-0.7, as specified in 'PayStationServiceJavaClient-2.0' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AAARuntimeJavaClient-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AAAServiceJavaClient-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing JavaCore-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AAACommonUtils-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AaaJavaEnvironmentRootProvider-1.0's dependency on AmazonApolloEnvironmentInfoJava-1.0 with AmazonApolloEnvironmentInfoJava-1.2, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing JavaCore-1.0's dependency on AmazonIdJava-1.0 with AmazonIdJava-2.0, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing JavaCore-1.0's dependency on AmazonProfilerJava-1.0 with AmazonProfilerJava-1.1, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AWSJavaClientRuntime-1.12.x's dependency on Apache-HttpComponents-HttpClient-4.5.x with Apache-HttpComponents-HttpClient-4.4.x, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing RestEasy-core-3.0.x's dependency on Apache-HttpComponents-HttpClient-4.5.x with Apache-HttpComponents-HttpClient-4.4.x, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing CoralClient-1.0's dependency on CoralCompressionEngine-1.0 with CoralCompressionEngine-1.1, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationExtensionsServiceInterface-1.4's dependency on IonJaxRsProvider-2.0 with IonJaxRsProvider-2.1, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationExtensionsJavaType-1.4's dependency on IonJaxRsProvider-2.0 with IonJaxRsProvider-2.1, as specified in 'PayStationExtensionsServiceJavaClient-1.5' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationServiceJavaClient-2.0's dependency on ARest-Client-Aaa-3.0 with ARest-Client-Aaa-2.0, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationExtensionsServiceJavaClient-1.5's dependency on ARest-Client-CloudAuth-1.0 with ARest-Client-CloudAuth-1.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationServiceJavaClient-2.0's dependency on ARest-Client-CloudAuth-1.0 with ARest-Client-CloudAuth-1.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing CoralMetricsQuerylogReporter-1.0's dependency on CoralMetricsReporter-1.0 with CoralMetricsReporter-1.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PaymentProcessorPluginInterface-1.0's dependency on IonJaxRsProvider-2.0 with IonJaxRsProvider-2.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationServiceJavaClient-2.0's dependency on IonJaxRsProvider-2.0 with IonJaxRsProvider-2.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PaymentProcessorPluginInterfaceV2-1.4's dependency on IonJaxRsProvider-2.0 with IonJaxRsProvider-2.1, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing Jackson-module-kotlin-2.12.x's dependency on KotlinReflect-2.x with KotlinReflect-1.3.x, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing AAARuntimeJavaClient-1.0's dependency on OdinLocalRetriever-1.0 with OdinLocalRetriever-1.2, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing PayStationExtensionsServiceInterface-1.4's dependency on Swagger-core-1.5.13 with Swagger-core-2.x, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+Replacing JavaCore-1.0's dependency on log4j-1.2 with log4j-2.x, as specified in 'PayStationPluginSDK-1.1' Config. See https://w.amazon.com/?ForcedConflictResolve
+BrazilGradleQualityDefaults plugin loaded for project 'PayStationPluginSDK'
+> Task :kaptGenerateStubsKotlin
+> Task :kaptKotlin
+Annotation processors discovery from compile classpath is deprecated.
+Set 'kapt.includeCompileClasspath = false' to disable discovery.
+Run the build with '--info' for more details.
+> Task :processResources NO-SOURCE
+> Task :ensureCheckstyleConfigStore
+CheckstyleConfigStore exist, skipping calling getBrazilDefaultConfigDir
+> Task :processTestResources
+> Task :ktlintKotlinScriptCheck NO-SOURCE
+> Task :ktlintMainSourceSetCheck
+> Task :kaptKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: dagger.internal.codegen.ComponentProcessor (NON_INCREMENTAL), org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor (NON_INCREMENTAL), lombok.launch.AnnotationProcessorHider$AnnotationProcessor (NON_INCREMENTAL), lombok.launch.AnnotationProcessorHider$ClaimingProcessor (NON_INCREMENTAL).
+> Task :ktlintTestSourceSetCheck
+> Task :compileKotlin FAILED
+e: /local/p4clients/pkgbuild-const/workspace/src/PayStationPluginSDK/src/main/kotlin/com/amazon/paystationplugin/service/psxt/PsxtClientImpl.kt: (237, 25): Unresolved reference: externalPaymentIntentResource
+e: /local/p4clients/pkgbuild-const/workspace/src/PayStationPluginSDK/src/main/kotlin/com/amazon/paystationplugin/service/psxt/PsxtClientImpl.kt: (950, 25): Unresolved reference: getInstallmentAccountApplicationsResource
+e: /local/p4clients/pkgbuild-const/workspace/src/PayStationPluginSDK/src/main/kotlin/com/amazon/paystationplugin/service/psxt/PsxtClientImpl.kt: (967, 25): Unresolved reference: updateInstallmentAccountApplicationsResource
+e: /local/p4clients/pkgbuild-const/workspace/src/PayStationPluginSDK/src/main/kotlin/com/amazon/paystationplugin/service/psxt/PsxtClientImpl.kt: (980, 25): Unresolved reference: getInstallmentAccountsResource
+e: /local/p4clients/pkgbuild-const/workspace/src/PayStationPluginSDK/src/main/kotlin/com/amazon/paystationplugin/service/psxt/PsxtClientImpl.kt: (996, 25): Unresolved reference: updateInstallmentAccountsResource
+> Task :syncKtlintReports
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Compilation error. See log for more details
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 2m 10s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+8 actionable tasks: 8 executed
+BUILD FAILED
+*** command 'brazil-gradle' with arguments 'release' exited with return code '1'
+[INFO ] [sandbox] <<< container exit (1) =========================================================
+[INFO ] [sandbox] container cleanup
+[INFO ] [sandbox] container cleanup succeeded: id=00f4a2f5fcf677bc3e182f039041645074175ff115c4843d7631b8a94caca98a
+[INFO ] [sandbox] using build image specified by 'BuildEnvironment'
+[INFO ] [sandbox] Deleting /local/p4clients/pkgbuild-dQ8dM/workspace/container_home_64194 if it exists...
+[INFO ] [sandbox] Deleting /tmp/temp_passwd_64194_58ca85 if it exists...
+[INFO ] [sandbox] Changing ownership of /local/p4clients/pkgbuild-dQ8dM/workspace and its contents to 12569:100...
+[ERROR] BUILD FAILED: Build failed
+[INFO ] Archiving Log File: '/local/p4clients/58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2.make.output'
+[INFO ] Starting to upload the file /local/p4clients/58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2.make.output.gz to S3
+[INFO ] Finished uploading the file /local/p4clients/58ca85c9fcf12d846d553248ac493dd6faa4d78806df71f33b9242ea6de46b67-2.make.output.gz to S3
+[INFO ] Adding Task Metrics for build system
+Task finished.  Wed Apr 16 10:30:51 2025

@@ -22,6 +22,7 @@ class ErrorLogFilter:
             r'failed with exit code',
             r'compilation failed',
             r'build failed',
+            r'unresolved reference',
             # Common Java/JVM errors
             r'nullpointerexception',
             r'classnotfoundexception',
@@ -90,7 +91,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "-l", "--log",
-        default="input_errors.txt",
+        default="build-error.txt",
         help="Path to the raw build log file (e.g. build_output.txt)"
     )
     args = parser.parse_args()
