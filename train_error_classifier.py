@@ -633,18 +633,17 @@ def main():
     except Exception as e:
         logging.error(f"Error saving model: {e}")
 
-        # ONNX export
-        try:
-            trained = pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_') else pipeline
-            logging.info("Converting to ONNX...")
-            init_type = [("string_input", StringTensorType([None, 1]))]
-            onnx_model = convert_sklearn(trained, initial_types=init_type)
-            onnx_path = os.path.splitext(model_out)[0] + ".onnx"
-            with open(onnx_path, 'wb') as f:
-                f.write(onnx_model.SerializeToString())
-            logging.info(f"Saved ONNX model to {onnx_path}")
-        except Exception as e:
-            logging.error(f"Error during ONNX conversion: {e}")
+    try:
+        trained = pipeline.best_estimator_ if hasattr(pipeline, 'best_estimator_') else pipeline
+        logging.info("Converting model to ONNX format…")
+        init_type = [("input", StringTensorType([None, 1]))]
+        onnx_model = convert_sklearn(trained, initial_types=init_type)
+        onnx_path = os.path.splitext(model_out)[0] + ".onnx"
+        with open(onnx_path, 'wb') as f:
+            f.write(onnx_model.SerializeToString())
+        logging.info(f"Saved ONNX model to {onnx_path}")
+    except Exception as e:
+        logging.error(f"Failed to convert to ONNX: {e}")
 
 
 if __name__ == "__main__":
